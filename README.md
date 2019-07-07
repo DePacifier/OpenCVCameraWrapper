@@ -22,4 +22,19 @@ MyCam->readCamera();
 MyCam->closeCamera();
 ```
 
+#Fixing Issues With Camera using Virtual Machine(Virtual Box)
+
+If you are running and using a virtual machine(specifically virtual box) and have a problem with the webcam not working or an external usb camera not working, one way of fixing is by installing the extension pack for virtual box. This extension pack will have all the required drivers and will make the VM to detect the webcams. 
+
+You can find the extension here:
+https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack
+or you can manually find the extension pack on this page:
+https://www.virtualbox.org/wiki/Downloads
+
+After installing the extension you can mount the webcam or external cam and it will work fine.
+
+Here is a sample:
+
+https://github.com/DePacifier/OpenCVCameraWrapper/blob/master/Screenshot%20from%202019-07-05%2007-13-50.png
+
 Thats all about it!!!
